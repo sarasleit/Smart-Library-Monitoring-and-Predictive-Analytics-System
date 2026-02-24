@@ -5,7 +5,7 @@ An IoT-based Smart Library Monitoring System designed to detect table occupancy,
 ![IoT](https://img.shields.io/badge/Domain-IoT-blue)
 ![Embedded Systems](https://img.shields.io/badge/Field-Embedded%20Systems-green)
 ![Status](https://img.shields.io/badge/Project-Research%20Phase-orange)
-![License](https://img.shields.io/badge/License-Academic-lightgrey)
+
 
 ---
 
