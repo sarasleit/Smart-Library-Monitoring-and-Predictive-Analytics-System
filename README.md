@@ -28,27 +28,58 @@ The system monitors real-time table occupancy and environmental noise levels, st
 - Visual web-based monitoring dashboard
 
 ---
+## Smart Reservation System 
+- Accept
+- Reject
+## AI Module 
+- best study area recummendation
+- occupancy Prediction
+- peak houer Prediction
+- AI chat Bot
+
+##  3D Dashbord 
+- live library( 🟢 Available  🟡 Busy  🔴Full )
+- Heat Maps
+- Noise Heatmap
+- Occupancy Heatmap
+- Temperature Heatmap
+- Live Statistics
+- Current Occupancy %
+- Average Noise
+- Average Temperature
+- Active Reservations
+- Active ESP32 Nodes
+- Weekly Analytics
+- Occupancy Trend
+- Noise Trend
+- Environmental Trend
+- Monthly Analytics
+- Peak Hours
+- Most Used Areas
+- Quietest Areas
+- Reservation Statistics
+- (( Telecommunications Layer ))
+
+## Telecommunications Layer
+- Communication Protocol
+- MQTT
+- HTTP
+- Wi-Fi
+- Network Monitoring
+-  RSSI
+- Packet Loss
+- Latency
+- Throughput
+- Connection Status
+- Signal Quality
+- Update Interval
+- Bandwidth Usage
+- Node Availability
+- Network Topology
 
 ## 🏗 System Architecture
 
-The system follows a layered IoT architecture:
-[ Occupancy Sensors ] [ Sound Sensors ]
-│
-▼
-[ Microcontroller ]
-(Arduino / ESP32)
-│
-▼
-[ WiFi Network ]
-│
-▼
-[ Central Server ]
-│
-▼
-[ Database ]
-│
-▼
-[ Web Dashboard ]
+
 
 
 ---
@@ -73,6 +104,8 @@ This project includes a structured comparison of:
 - Environmental reliability
 - Cost efficiency
 
+---
+
 ### 📍 Microcontrollers
 - Processing capability
 - Connectivity options
@@ -81,6 +114,23 @@ This project includes a structured comparison of:
 
 Final selection will be based on experimental testing and measurable performance metrics.
 
+---
+
+## Alerts
+- Noise > Threshhold   => Alerts  
+- Tempreature High     => Alerts
+- ESP32 offline        => Notfication
+- Weak wi-fi           => Notfication
+- Room over capacity   => Notfication
+
+---
+
+## Reports
+ # Automatic PDF Reports
+ - Daily
+ - Weekly
+ - Monthly 
+ 
 ---
 
 ## 📊 Data Analysis & Predictive Analytics
@@ -107,28 +157,7 @@ Basic statistical models and data visualization tools will be applied during ana
 
 ---
 
-## 🚀 Implementation Strategy
 
-The system will first be implemented as a **prototype (Proof of Concept)** on a limited number of tables before scaling to a full-library deployment.
-
----
-
-## 📁 Repository Structure
-Smart-Library-Monitoring-and-Predictive-Analytics-System
-│
-├── documentation/ # Reports & technical documents
-├── hardware/ # Circuit diagrams & component specs
-├── code/ # Embedded system source code
-├── research/ # Sensor comparison & analysis
-└── README.md
-
----
-
-## 📌 Current Status
-
-Phase 1: Research & Hardware Evaluation
-
----
 
 ## 🔮 Future Development
 
@@ -137,6 +166,53 @@ Phase 1: Research & Hardware Evaluation
 - Mobile application support
 - Advanced AI-based predictive modeling
 - Large-scale deployment
+
+---
+
+##  Future Smart Campus
+- Laboratories
+- Classrooms
+- Meeting Rooms
+- Hospitals
+- Offices
+- Smart Buildings
+- Architecture
+- Sensors
+
+---
+## Architecture
+
+- Sensors
+- ↓
+- ESP32 Nodes
+- ↓
+- Wi-Fi
+- ↓
+- MQTT Broker
+- ↓
+- Backend Server
+- ↓
+- Database
+- ↓
+- AI Engine
+- ↓
+- Dashboard
+- ↓
+- Student App
+- ↓
+-Admin Dashboard
+
+---
+
+## 🚀 Implementation Strategy
+
+The system will first be implemented as a **prototype (Proof of Concept)** on a limited number of tables before scaling to a full-library deployment.
+
+---
+
+## 📌 Current Status
+
+Phase 1: Research & Hardware Evaluation
 
 ---
 
