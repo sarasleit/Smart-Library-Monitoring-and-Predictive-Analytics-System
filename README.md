@@ -166,7 +166,11 @@ Basic statistical models and data visualization tools will be applied during ana
 - Mobile application support
 - Advanced AI-based predictive modeling
 - Large-scale deployment
-
+- Suggest a seating area close to books related to the user's field of study.
+- Recommend books that match the user's academic major or interests.
+- Provide a library dictionary or glossary in audio format for people with visual impairments.
+- Add visual symbols or sign language support to help users locate books and library sections.
+- Encourage users not to sit for long periods by providing reminders or suggesting short movement breaks.
 ---
 
 ##  Future Smart Campus
