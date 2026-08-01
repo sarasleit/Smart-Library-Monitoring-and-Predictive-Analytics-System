@@ -185,9 +185,9 @@ Collected data will be analyzed to:
 - MQTT Broker
 - ↓
 - Backend Server
--       ↓
+- ↓
 - Database > AI Prediction Module > Student Dashboard > Admin Dashboard
-- ز
+
 ---
 
 ## 🚀 Implementation Strategy
