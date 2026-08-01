@@ -186,12 +186,8 @@ Collected data will be analyzed to:
 - ↓
 - Backend Server
 -       ↓
--        >>>>>>>>>>>>  Database
--        >>>>>>>>>>>>  AI Prediction Module
--        >>>>>>>>>>>>  Student Dashboard
--        >>>>>>>>>>>>  Admin Dashboard
-- زز
-
+- Database > AI Prediction Module > Student Dashboard > Admin Dashboard
+- ز
 ---
 
 ## 🚀 Implementation Strategy
