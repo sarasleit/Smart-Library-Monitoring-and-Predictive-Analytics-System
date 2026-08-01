@@ -22,9 +22,11 @@ The system monitors real-time table occupancy and environmental noise levels, st
 - Real-time table occupancy detection
 - Noise level monitoring per library section
 - Data storage and structured logging
-- Sensor and microcontroller performance comparison
+- Sensor and microcontroller performance comparison ........ [Future Work] ||| Move to  Hardware Selection and Evaluation
 - Accuracy testing and validation
 - Predictive analytics for peak-hour forecasting
+- Smart Reservation System
+- Temperature Monitoring
 - Visual web-based monitoring dashboard
 
 ---
@@ -32,10 +34,10 @@ The system monitors real-time table occupancy and environmental noise levels, st
 - Accept
 - Reject
 ## AI Module 
-- best study area recummendation
+- best study area recummendation ............................ [Future Work]
 - occupancy Prediction
 - peak houer Prediction
-- AI chat Bot
+- AI chat Bot .......................................[Future Work]
 
 ##  3D Dashbord 
 - live library( 🟢 Available  🟡 Busy  🔴Full )
@@ -48,19 +50,20 @@ The system monitors real-time table occupancy and environmental noise levels, st
 - Average Noise
 - Average Temperature
 - Active Reservations
-- Active ESP32 Nodes
+- Active ESP32 Nodes ..................................[Admin] [Future Work]
 - Weekly Analytics
 - Occupancy Trend
 - Noise Trend
-- Environmental Trend
+- Temperature & Noise Trend
 - Monthly Analytics
 - Peak Hours
 - Most Used Areas
 - Quietest Areas
 - Reservation Statistics
-- (( Telecommunications Layer ))
+- (( Telecommunications Layer )) .................................... [System Status] [Future Work] [Architecture]
 
-## Telecommunications Layer
+## Telecommunications Layer 
+### ...................... [System Status] [Future Work] [Architecture]
 - Communication Protocol
 - MQTT
 - HTTP
@@ -77,20 +80,13 @@ The system monitors real-time table occupancy and environmental noise levels, st
 - Node Availability
 - Network Topology
 
-## 🏗 System Architecture
-
-
-
-
----
-
 ## 🛠 Hardware Components (Under Evaluation)
 
-- Microcontroller (Arduino / ESP32)
-- Occupancy Detection Sensors
-- Sound Sensors
-- WiFi Communication Module
+- Microcontroller ESP32
+- Occupancy Detection Sensors *(Under Evaluation)*
+- Sound Sensors *(Under Evaluation)*
 - Power Supply System
+- Temperature Sensor *(Optional / Under Evaluation)*
 
 ---
 
@@ -119,8 +115,8 @@ Final selection will be based on experimental testing and measurable performance
 ## Alerts
 - Noise > Threshhold   => Alerts  
 - Tempreature High     => Alerts
-- ESP32 offline        => Notfication
-- Weak wi-fi           => Notfication
+- ESP32 offline        => Notfication ................. [Admin Dashboard] [Future Work]
+- Weak wi-fi           => Notfication ................. [Admin Dashboard] [Future Work]
 - Room over capacity   => Notfication
 
 ---
@@ -140,10 +136,7 @@ Collected data will be analyzed to:
 - Identify peak occupancy times
 - Determine low-usage periods
 - Predict occupancy rates based on exam schedules
-- Correlate student enrollment size with library congestion
-
-Basic statistical models and data visualization tools will be applied during analysis.
-
+- Basic statistical models and data visualization tools will be applied during analysis.
 ---
 
 ## 🧪 System Evaluation Metrics
@@ -154,10 +147,7 @@ Basic statistical models and data visualization tools will be applied during ana
 - Response time
 - Prediction effectiveness
 - Noise measurement consistency
-
 ---
-
-
 
 ## 🔮 Future Development
 
@@ -195,16 +185,12 @@ Basic statistical models and data visualization tools will be applied during ana
 - MQTT Broker
 - ↓
 - Backend Server
-- ↓
-- Database
-- ↓
-- AI Engine
-- ↓
-- Dashboard
-- ↓
-- Student App
-- ↓
--Admin Dashboard
+-       ↓
+-        >>>>>>>>>>>>  Database
+-        >>>>>>>>>>>>  AI Prediction Module
+-        >>>>>>>>>>>>  Student Dashboard
+-        >>>>>>>>>>>>  Admin Dashboard
+- زز
 
 ---
 
