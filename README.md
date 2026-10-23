@@ -198,7 +198,8 @@ The system will first be implemented as a **prototype (Proof of Concept)** on a 
 
 ## 📌 Current Status
 
-Phase 1: Research & Hardware Evaluation
+Phase 1: Research and System Design Completed.
+Hardware evaluation and prototype implementation are ongoing
 
 ---
 
